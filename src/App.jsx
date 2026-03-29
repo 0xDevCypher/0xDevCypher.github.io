@@ -530,51 +530,51 @@ export default function Portfolio() {
                     <ExternalLink className="h-4 w-4" /> LinkedIn
                   </a>
                 </div> */}
-                 <div className="relative mt-16 text-center">
+                <div className="relative mt-16 text-center">
 
-  {/* Heading */}
-  <p className="text-sm font-semibold uppercase tracking-widest text-cyan-200/80">
-    Contact
-  </p>
-  <h2 className="mt-2 text-4xl font-black text-white">
-    Get In Touch
-  </h2>
+                  {/* Heading */}
+                  <p className="text-sm font-semibold uppercase tracking-widest text-cyan-200/80">
+                    Contact
+                  </p>
+                  <h2 className="mt-2 text-4xl font-black text-white">
+                    Get In Touch
+                  </h2>
 
-  {/* Buttons */}
-  <div className="mt-8 flex justify-center flex-wrap gap-4">
+                  {/* Buttons */}
+                  <div className="mt-8 flex justify-center flex-wrap gap-4">
 
-    {/* Phone */}
-    <a
-      href="tel:+918875611351"
-      title="Call"
-      className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
-    >
-      <Phone className="h-5 w-5 text-cyan-300 group-hover:scale-110 transition" />
-    </a>
+                    {/* Phone */}
+                    <a
+                      href="tel:+918875611351"
+                      title="Call"
+                      className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
+                    >
+                      <Phone className="h-5 w-5 text-cyan-300 group-hover:scale-110 transition" />
+                    </a>
 
-    {/* Email */}
-    <a
-      href="mailto:sharmapckhushal007@gmail.com"
-       rel="noopener noreferrer"
-      title="Email"
-      className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
-    >
-      <Mail className="h-5 w-5 text-cyan-300 group-hover:scale-110 transition" />
-    </a>
+                    {/* Email */}
+                    <a
+                      href="mailto:sharmapckhushal007@gmail.com"
+                      rel="noopener noreferrer"
+                      title="Email"
+                      className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
+                    >
+                      <Mail className="h-5 w-5 text-cyan-300 group-hover:scale-110 transition" />
+                    </a>
 
-    {/* LinkedIn */}
-    <a
-      href="https://www.linkedin.com/in/khushahalsharma"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="LinkedIn"
-      className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
-    >
-      <ExternalLink className="h-5 w-5 text-cyan-300 group-hover:scale-110 transition" />
-    </a>
+                    {/* LinkedIn */}
+                    <a
+                      href="https://www.linkedin.com/in/khushahalsharma"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="LinkedIn"
+                      className="group flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-4 hover:bg-white/10 transition"
+                    >
+                      <ExternalLink className="h-5 w-5 text-cyan-300 group-hover:scale-110 transition" />
+                    </a>
 
-  </div>
-</div>
+                  </div>
+                </div>
               </motion.div>
             </section>        </main>
         </div>
